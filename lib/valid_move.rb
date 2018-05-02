@@ -22,5 +22,4 @@ if (position_taken?(board_array, location)) == false && (location_exists?(number
   return true
 else
   return false
-  end
 end
