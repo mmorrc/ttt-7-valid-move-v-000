@@ -11,7 +11,7 @@ def position_taken?(board_array, location)
 end
 
 def location_exists?(number)
-  if number.between? (0,8) == true
+  if number.between? (0, 8) == true
     return true
   else
     return false
@@ -22,4 +22,5 @@ if (position_taken?(board_array, location)) == false && (location_exists?(number
   return true
 else
   return false
+  end
 end
