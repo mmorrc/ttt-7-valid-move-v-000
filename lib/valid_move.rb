@@ -10,15 +10,15 @@ def position_taken?(board, index)
   end
 end
 
-def location_exists?(number)
-  if number.between?(0,8) == true
+def location_exists?(index)
+  if index.between?(0,8) == true
     return true
   else
     return false
   end
 end
 
-if (position_taken?(board, index)) == false && (location_exists?(number) == true)
+if (position_taken?(board, index)) == false && (location_exists?(index) == true)
   return true
 else
   return false
